@@ -310,14 +310,20 @@ header{
 }
 
 .load-more{
+    margin: 0 auto;
     margin-top: 50px;
-    display: inline-block;
+    display: block;
+    width: fit-content;
     padding: 13px 35px;
     border-radius: 25px;
     color: #a0a0a0a0;
     font-size: 16px;
     cursor: pointer;
+    
+
 }
+
+
 
 .load-more:hover{
     background:linear-gradient(90deg,#e70b25 0%,#900314 100%);
